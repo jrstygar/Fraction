@@ -86,8 +86,7 @@ public class Fraction
 
 	public Fraction add(Fraction other) 
 	{
-
-		//please help??
+		return new Fraction((other.getNumer() * getDenom()) + (getNumer() * other.getDenom()), other.getDenom() * getDenom());		
 	}
 
 	public Fraction subtract(Fraction other) 
