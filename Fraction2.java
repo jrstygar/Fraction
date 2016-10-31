@@ -97,12 +97,7 @@ public class Fraction
 
 	public Fraction multiply(Fraction other) 
 	{
-		int d = 0;
-		int n = 1; 
-
-		s = d * n; 
-
-		return s; // i need help here
+		return new Fraction(other.getNumer() * getNumer(), other.getDenom() * getDenom());
 	}
 
 	public Fraction divide(Fraction other) 
