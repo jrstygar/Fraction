@@ -106,6 +106,6 @@ public class Fraction
 
 	public Fraction reciprocal() 
 	{
-		//????? what is a reciprocal??????
+		return new Fraction(getDenom(), getNumer());
 	}
 }// EOF
